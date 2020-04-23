@@ -1,0 +1,46 @@
+* {
+  outline: 1px dotted red;
+  box-sizing: border-box;
+}
+
+section {
+  width: 901px;
+  margin: 0 auto;
+}
+
+
+header {
+  margin-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 4px solid black;
+}
+nav ul {
+  display: inline-block;
+}
+
+#logo {
+  /* display: inline-block; */
+  /* float:left; */
+}
+
+#buttons {
+  /* margin-left: 400px; */
+  display: inline-block;
+}
+
+div {
+  display: inline-block;
+  margin-left: 300px;
+}
+
+main {
+  margin-top: 40px;
+}
+ main ul {
+   display:inline-block;
+   margin-bottom:20px;
+ }
+
+ main ul h1{
+   font-size: 30px;
+ }
