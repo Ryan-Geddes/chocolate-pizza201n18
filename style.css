@@ -34,8 +34,8 @@ nav ul li {
   font-family: 'Abel', sans-serif;
   color: grey;
 
-
 }
+
 #buttons {
   /* margin-left: 400px; */
   display: inline-block;
@@ -67,8 +67,101 @@ main {
  }
 
  main ul h1{
-   font-size: 30px;
-   
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: 52px;
+   margin-bottom:8px;
  }
+ main ul p {
+  font-family: 'Abel', sans-serif;
+  margin-bottom: 20px;
+  margin-right: 542px;
+  color: grey;
+}
+main a {
+  font-family: 'Abel', sans-serif;
+  color: grey;
+}
 
- 
+main section img {
+  margin-bottom: 30px;
+}
+
+main section p {
+  line-height: 1.5;
+  font-size: 20px;
+  text-indent: 4%;
+  margin-bottom: 40px;
+  font-family:'Times New Roman', Times, serif;
+  color: grey;
+}
+
+main section p:nth-child(4){
+  margin-bottom: 30px;
+}
+
+main article {
+  height:305px;
+  background: url('lab-assets/list-bg.png');
+  background-repeat:no-repeat;
+  margin-bottom: 50px;
+  /* border-bottom: solid black;
+  padding-bottom:300px; */
+
+}
+
+main article ul {
+  margin-top:38px;
+  margin-left:85px;
+  line-height: 2;
+  font-size: 14;
+  font-family: '
+
+}
+
+main article ul:nth-child(2) {
+  margin-left:180px;
+}
+
+.strike {
+  text-decoration-line: line-through;
+}
+
+.vanessa {
+  border-top: solid black;
+  padding-top: 30px;
+}
+
+.vanessa img{
+  /* display: inline-block; */
+  float:left;
+  margin-right: 15px;
+}
+
+.vanessa ul {
+  margin-top: 20px;
+}
+
+.vanessa h1  {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  display: inline-block;
+  margin-bottom:10px;
+}
+
+.vanessa p {
+  font-size: 16px;
+  margin-top: 3px;
+  margin-left:40px;
+  font-family: 'Times New Roman', Times, serif;
+  color: grey;
+  width: 600px;
+  line-height: 1.5;
+}
+
+.vanessa button {
+    float: right;
+    margin-left: 100px;
+    margin-top: 17px;
+  
+  }
+}
