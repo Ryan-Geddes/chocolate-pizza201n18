@@ -3,84 +3,113 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="reset.css">
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css?family=Yellowtail&display=swap" rel="stylesheet">
-
   <title>Document</title>
+  <link href="css/reset.css" type="text/css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+  <link href="css/style.css" type="text/css" rel="stylesheet" />
 </head>
 <body>
-  <section>
-  <header>
-    <nav>
-      <ul>
-        <img id="" src="lab-assets/logo.png" alt="">
-      </ul>
+  <header>   
+    <section id="top-section">
+      <figure id="logo">       
+        <img src="img/logo.png" alt="logo" title="logo">
+        <article id="logo-text">
+          <h2>Delicious</h2>
+          <h4>THE BEST FOOD BLOG ON THE WEB</h4>
+        </article>
+      </figure>
 
-      <ul id="buttons">
-        <h1>Delicious</h1>
-        <li>THE BEST FOOD BLOG ON THE WEB</li>
-      </ul>
-       <div>
-        <img src="lab-assets/fb-icon.png" alt="">
-        <img src="lab-assets/twit-icon.png" alt="">
-        <img src="lab-assets/gp-icon.png" alt="">
-        <img src="lab-assets/insta-icon.png" alt="">
-        <img src="lab-assets/flic-icon.png" alt="">
-        <img src="lab-assets/pint-icon.png" alt="">
-        <img src="lab-assets/rss-icon.png" alt="">
-        <img src="lab-assets/mail-icon.png" alt="">
-      </div>
-    </nav>
+      <div id="links">
+        <figure class="inline">
+          <img src="img/fb-icon.png" alt="facebook" title="facebook">
+          <img src="img/twit-icon.png" alt="twitter" title="twitter">
+          <img src="img/gp-icon.png" alt="google" title="google">
+          <img src="img/insta-icon.png" alt="instagram" title="instagram">
+          <img src="img/flic-icon.png" alt="flickr" title="flickr">
+          <img src="img/pint-icon.png" alt="pintrest" title="pintrest">       
+        </figure>
+    
+        <figure id="old-school" class="inline">        
+          <img src="img/rss-icon.png" alt="rss" title="rss">
+          <img src="img/mail-icon.png" alt="email" title="email">
+        </figure> 
+      </div>   
+
+    </section>
+    <nav>  
+    </nav> 
   </header>
-    <main>
-      <ul>
+  <main>
+    <section id="title">
+      <aside id="date">
         <h1>Chocolate Pizza</h1>
-        <p>POSTED ON 13 DEC 2013/DESSERTS</p>
-
-      </ul>
-      <a><img src="lab-assets/print-icon.png" alt="">
-      PRINT</a>
-
-      <section>
-        <img src="lab-assets/choco-pizza.png" alt="">
-        <p>For the fig swirl: sit amet consectetur adipisicing elit. Neque, magni in! Deleniti accusantium earum voluptate culpa quisquam nostrum tenetur, necessitatibus eius illum rem temporibus repudiandae! Harum accusamus nulla debitis ullam!</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque, magni in! Deleniti accusantium earum voluptate culpa quisquam nostrum tenetur, necessitatibus eius illum rem temporibus repudiandae! Harum accusamus nulla debitis ullam!</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque, magni in! Deleniti accusantium earum voluptate culpa quisquam nostrum tenetur, necessitatibus eius illum rem temporibus repudiandae! Harum accusamus nulla debitis ullam!</p>
-      </section>
-     <article>
-      <ul>
-        <li style ="list-style-image: url(lab-assets/un-checked.jpg);"> 1 1/2 cups milk</li>
-        <li style ="list-style-image: url(lab-assets/un-checked.jpg);">1/2 cup mascarpone</li>
-        <li style ="list-style-image: url(lab-assets/un-checked.jpg);">1/2 tsp pink salt</li>
-        <li style ="list-style-image: url(lab-assets/un-checked.jpg);">1 lb Black Mission Figs</li>
-        <li style ="list-style-image: url(lab-assets/un-checked.jpg);">1/2 cup brown sugar</li>
-        <li style ="list-style-image: url(lab-assets/un-checked.jpg);">2-4 tbsp water</li>
-      </ul>      
-      <ul>
-        <li style ="list-style-image: url(lab-assets/un-checked.jpg);">1 1/2 cups heavy cream</li>
-        <li class = "strike" style ="list-style-image: url(lab-assets/checkbox.jpg);">1/3 granulated sugar</li>
-        <li class = "strike" style ="list-style-image: url(lab-assets/checkbox.jpg);">2 egg yolks</li>
-        <li style ="list-style-image: url(lab-assets/un-checked.jpg);">1 lemon, juiced</li>
-        <li style ="list-style-image: url(lab-assets/un-checked.jpg);">2 tbsp butter</li>
-        <li style ="list-style-image: url(lab-assets/un-checked.jpg);">1 cup honey roasted pecans, roughly choppped</li>
-      </ul>      
-     </article>
-<!-- gray line -->
-<div class = "vanessa">
-  <img src="lab-assets/van-pic.png" alt="">
-  <h1>Vanessa Stevenson</h1>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus nulla facere soluta pariatur, lorem impsueh ndhfe sdfkj oekdj </p>
-<button>SHARE RECIPE</button>
-
-
-</div>
-
-    </main>
+        <h3>POSTED ON 5 MAY 2020 / DESSERTS</h3>
+      </aside>
+      <figure>
+        <div id="print" >
+          <img class="inline" src="img/print-icon.png" alt="print" title="print">
+          <aside class="inline">PRINT</aside>
+        </div>
+      </figure>
+    </section>
+    <section>
+      <figure id="hero">
+        <img src="img/choco-pizza.png" alt="chocolate" title="chocolate">
+      </figure>
+    </section>
+    <section id="instructions">
+      <article>
+        <p>For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely.</p>
+        <p>Ice Cream: In a small pot over medium heat, combine milk, and granulated sugar until sugar is completely dissolved and the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture in the fridge and wait until the fig mixture is cooled.</p>
+        <p>Using an ice cream machine, pour liquids into a frozen basin and process according to manufacturer instructions, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the nuts.
+         Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass tupperware. Freeze for at least two hours before serving. 
+        </p>
+      </article>
+    </section>
+    <section>
+      <figure id="paper">
+        <img src="img/list-bg.png" alt="list" title="list">
+      </figure>
+      <form id="items">
+        <ul id="checkbox1">
+          <li><input type="checkbox" name="ingredients" value="milk">1/2 cups milk</input></li>
+          <li><input type="checkbox" name="ingredients" value="cheese">1/2 cup mascarpone</input></li>
+          <li><input type="checkbox" name="ingredients" value="salt">1/2 tsp pink salt</input></li>
+          <li><input type="checkbox" name="ingredients" value="figs">1lb Black Mission Figs</input></li>
+          <li><input type="checkbox" name="ingredients" value="brownSugar">1/2 cup brown sugar</input></li>
+          <li><input type="checkbox" name="ingredients" value="water">2-4 tbsp water</input></li>
+        </ul>
+        <ul id="checkbox2">
+          <li><input type="checkbox" name="ingredients" value="cream">1 1/2 cups heavy cream</input></li>
+          <li><input type="checkbox" name="ingredients" value="granulatedSugar" checked="checked">1/3 granulated sugar</input></li>
+          <li><input type="checkbox" name="ingredients" value="eggs" checked="checked">2 egg yolks</input></li>
+          <li><input type="checkbox" name="ingredients" value="lemon">1 lemon, juiced</input></li>
+          <li><input type="checkbox" name="ingredients" value="butter">2 tbsp butter</input></li>
+          <li><input type="checkbox" name="ingredients" value="pecans">1 cup honey roasted pecans, roughly <br/> chopped</input></li>
+        </ul>
+    </form>
+    </section>
+  </main>
   <footer>
-    <img src="lab-assets/small-logo.png"  alt="">
-  <p>Delicious C 2013 - All Rights Reserved<br>Proudly published with Ghost</p>
+    <nav id=bottomNav>      
+    </nav>
+    <section>
+      <div id="face">
+        <img class="inline" src="img/van-pic.png" alt="vanessa" title="vanessa">
+        <article id="lady" ><h2>Vanessa Stevenson</h2> 
+          Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.
+        </article>
+      </div>
+      <section id="share-button">
+        SHARE RECIPE
+      </section>
+    </section>
+    <section id="foot">
+      <img id="lilLogo" src="img/small-logo.png" alt="small-logo" title="small-logo">
+      <article>Delicious &copy; 2020 &middot; All Rights Reserved.<br />Proudly published with Ghost.</article>
+    </section>
+    <script src="js/app.js"></script>
   </footer>
-</section>
-  </body>
+</body>
 </html>
